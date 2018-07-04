@@ -2,9 +2,9 @@ var nama = 'Dwi';
 var peran = 'Penyihir';
 
 if (nama === ''){
-  alert ('Nama harus diisi!');
+  console.log ('Nama harus diisi!');
 } else if (peran === ''){
-  alert ('Pilih Peranmu untuk memulai game!');
+  console.log ('Pilih Peranmu untuk memulai game!');
 } else if (peran === 'Ksatria' || peran === 'ksatria' || peran === 'KSATRIA'){
   console.log('Selamat datang di Dunia Proxytia, ' +nama);
   console.log('Hallo ' + peran + ' ' + nama +', kamu dapat menyerang dengan senjatamu!');
@@ -15,5 +15,5 @@ if (nama === ''){
   console.log('Selamat datang di Dunia Proxytia, ' +nama);
   console.log('Hallo ' + peran  + ' ' + nama  +', ciptakan keajaiban yang membantu kemenanganmu!');
 } else {
-  alert ('Pilih Peranmu untuk memulai game!');
+  console.log ('Pilih Peranmu untuk memulai game!');
 }
