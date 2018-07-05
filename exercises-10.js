@@ -1,4 +1,5 @@
 function bandingkanAngka(angka1, angka2) {
+  var nilai;
   if (angka1 > angka2){
     nilai = false;
   }
